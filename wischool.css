@@ -1,0 +1,418 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 20px;
+  font-family: " Arial, Helvetica, sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.navholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 50px;
+}
+.navbutton {
+  width: 150px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(9, 180, 81);
+}
+.sign {
+  width: 75px;
+  height: 40px;
+  background-color: rgb(9, 180, 81);
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+}
+.heroholder {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lefthero {
+  width: 45%;
+  height: 400px;
+  background-color: rgb(240, 248, 240);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lefttext {
+  font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.Get {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(9, 180, 81);
+  color: white;
+}
+.righthero {
+  width: 45%;
+  height: 400px;
+  background-color: gray;
+  border-radius: 20px;
+}
+.righthero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.Edu {
+  color: rgb(9, 180, 81);
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 70px;
+}
+.Child {
+  color: rgb(9, 180, 81);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.course {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coursepic {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.coursepic1 {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(9, 180, 81);
+}
+.coursepic2 {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(9, 180, 81);
+}
+.coursepic3 {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(9, 180, 81);
+}
+.coursepic4 {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(9, 180, 81);
+}
+.coursepic1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.coursepic2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.coursepic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.coursepic4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.grade {
+  color: rgb(9, 180, 81);
+}
+.reports {
+  color: rgb(9, 180, 81);
+}
+.Grade {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.assess {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.grad {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.repo {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ass {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.grad1 {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+.repo1 {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+.ass1 {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+.ass1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.grad1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.repo1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.edu {
+  color: rgb(9, 180, 81);
+}
+.page {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subpage {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.pagepic {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.pagepic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.pagetext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.Education {
+  color: rgb(9, 180, 81);
+}
+.rev {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: rgb(9, 180, 81);
+}
+.review {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.what {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(209, 243, 209);
+  justify-content: space-around;
+}
+.stu {
+  text-decoration: underline;
+  color: rgb(9, 180, 81);
+}
+.wait {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.student1 {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+.student2 {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+.ture1 {
+  width: 50px;
+  height: 45px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.ture1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.ture2 {
+  width: 50px;
+  height: 45px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.ture2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+}
+.flogo {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+.foot {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
