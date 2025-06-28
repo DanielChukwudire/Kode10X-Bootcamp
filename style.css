@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 600px;
+  width: 500px;
   height: 50px;
 }
 .navbutton {
@@ -39,19 +39,23 @@
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
 }
+.nav a {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
 .login {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   color: rgb(9, 180, 81);
+  text-decoration: none;
+  margin-left: 120px;
 }
-.sign {
-  width: 75px;
-  height: 40px;
-  background-color: rgb(9, 180, 81);
-  border-style: none;
-  color: white;
-  border-radius: 5px;
+.login a {
+  text-decoration: none;
+  color: rgb(9, 180, 81);
 }
 .heroholder {
   width: 100%;
@@ -59,11 +63,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(240, 248, 240);
 }
 .lefthero {
   width: 45%;
   height: 400px;
-  background-color: rgb(240, 248, 240);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -103,7 +107,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin-left: 70px;
+  margin-top: 30px;
+  margin-left: 470px;
 }
 .Child {
   color: rgb(9, 180, 81);
@@ -131,7 +136,7 @@
   border-radius: 10px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(9, 180, 81);
 }
 .coursepic2 {
@@ -140,7 +145,7 @@
   border-radius: 10px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(9, 180, 81);
 }
 .coursepic3 {
@@ -149,7 +154,7 @@
   border-radius: 10px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(9, 180, 81);
 }
 .coursepic4 {
@@ -158,7 +163,7 @@
   border-radius: 10px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(9, 180, 81);
 }
 .coursepic1 img {
@@ -189,8 +194,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin-left: 70px;
-  margin-top: 20px;
+  margin-left: 470px;
+  margin-top: 30px;
 }
 .grade {
   color: rgb(9, 180, 81);
@@ -206,86 +211,68 @@
   justify-content: center;
 }
 .assess {
-  width: 80%;
+  width: 90%;
   height: 300px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
 }
 .grad {
-  width: 300px;
+  width: 350px;
   height: 300px;
   background-color: white;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .repo {
-  width: 300px;
+  width: 350px;
   height: 300px;
   background-color: white;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .ass {
-  width: 300px;
+  width: 350px;
   height: 300px;
   background-color: white;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
-.grad1 {
-  width: 300px;
-  height: 200px;
-  background-color: black;
-  border-radius: 10px 10px 0px 0px;
-  margin-bottom: 20px;
-}
-.repo1 {
-  width: 300px;
-  height: 200px;
-  background-color: black;
-  border-radius: 10px 10px 0px 0px;
-  margin-bottom: 20px;
-}
-.ass1 {
-  width: 300px;
-  height: 200px;
-  background-color: black;
-  border-radius: 10px 10px 0px 0px;
-  margin-bottom: 20px;
-}
-.ass1 img {
+.ass img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
-.grad1 img {
+.grad img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
-.repo1 img {
+.repo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 .text2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin-left: 70px;
+  margin-left: 470px;
   margin-top: 20px;
 }
 .edu {
@@ -299,12 +286,12 @@
   justify-content: center;
 }
 .subpage {
-  width: 80%;
+  width: 90%;
   height: 300px;
   display: flex;
   align-items: center;
   border-radius: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .pagepic {
   width: 300px;
@@ -409,10 +396,64 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: white;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .foot {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
+  margin-top: 20px;
+}
+.fuut {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .heroholder {
+    display: flex;
+    flex-direction: column;
+  }
+  .lefthero {
+    width: 100%;
+  }
+  .righthero {
+    width: 100%;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .nav {
+    width: 300px;
+  }
+  .heroholder {
+    display: flex;
+    flex-direction: column;
+  }
+  .lefthero {
+    width: 100%;
+  }
+  .righthero {
+    width: 100%;
+  }
+  .coursepic1 {
+    width: 100%;
+  }
+  .coursepic2 {
+    width: 100%;
+  }
+  .coursepic3 {
+    width: 100%;
+  }
+  .coursepic4 {
+  }
+}
+@media (min-width: 501px) {
+  .navbutton {
+  }
 }
