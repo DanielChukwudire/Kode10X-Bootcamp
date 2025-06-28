@@ -14,10 +14,12 @@
           <div class="sign">Sign <span class="up">in</span></div>
           <div class="pls">Please log in to your account</div>
           <div class="Email">Email</div>
-          <input placeholder="niceguy@gmail.com" class="mail" />
+          <input id="loginUser" placeholder="niceguy@gmail.com" class="mail" />
           <div class="pass">Password</div>
-          <input placeholder="*******" class="pin" />
-          <div class="not"><button class="sine">Sign In</button></div>
+          <input id="loginPass" placeholder="*******" class="pin" />
+          <div class="not">
+            <button class="sine" onclick="Login()">Sign In</button>
+          </div>
         </div>
         <div class="already">
           Don't have an account?
@@ -26,5 +28,6 @@
       </div>
       <div class="rightpart"><img src="./New folder/black17.jpg" /></div>
     </div>
+    <script src="./signin.js"></script>
   </body>
 </html>

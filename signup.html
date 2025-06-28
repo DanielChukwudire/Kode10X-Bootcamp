@@ -13,14 +13,16 @@
         <div class="auth">
           <div class="sign">Sign <span class="up">Up</span></div>
           <div class="full">Full name</div>
-          <input placeholder="Bola Tinubu" class="name" />
+          <input id="signup" placeholder="Bola Tinubu" class="name" />
           <div class="Email">Email</div>
           <input placeholder="niceguy@gmail.com" class="mail" />
           <div class="Date">Date Of Birth</div>
           <input placeholder="1st January 1901" class="birth" />
           <div class="pass">Password</div>
-          <input placeholder="*******" class="pin" />
-          <div class="not"><button class="sine">Sign Up</button></div>
+          <input id="signupPass" placeholder="*******" class="pin" />
+          <div class="not">
+            <button class="sine" onclick="signUp()">Sign Up</button>
+          </div>
         </div>
         <div class="already">
           Already have an account?
@@ -29,5 +31,6 @@
       </div>
       <div class="rightpart"><img src="./New folder/black18.jpg" /></div>
     </div>
+    <script src="./signup.js"></script>
   </body>
 </html>
