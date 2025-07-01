@@ -2,15 +2,16 @@ function Login() {
   const username = document.getElementById("loginUser").value;
   const password = document.getElementById("loginPass").value;
 
-  const savedTolocal = JSON.parse(localStorage.getItem("user"));
+  const users = JSON.parse(localStorage.getItem("users")) || [];
 
-  if (
-    savedTolocal &&
-    username === savedTolocal.username &&
-    password === savedTolocal.password
-  ) {
-    alert("login sucessful");
+  // Find matching user
+  const matchedUser = users.find(user => user.username === username && user.password === password);
+
+  if (matchedUser) {
+    alert(`Welcome back, ${matchedUser.name}!`);
+    // Redirect to dashboard or another page
+    // window.location.href = "dashboard.html";
   } else {
-    alert("login failed");
+    alert("Incorrect email or password.");
   }
 }
