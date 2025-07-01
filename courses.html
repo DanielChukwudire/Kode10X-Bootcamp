@@ -3,60 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootcamp</title>
+    <title>WiSchool Courses</title>
     <link rel="stylesheet" href="./course.css" />
   </head>
-  <body class="body">
-    <div class="header">
-      <div class="logo">WiSchool</div>
-      <div class="navholder">
-        <div class="nav"><a href="index.html">Home</a></div>
-        <div class="nav">Courses</div>
-        <div class="nav">Instructors</div>
-        <div class="nav">Schedule</div>
-        <div class="nav">Contact Us</div>
-      </div>
+  <body>
+    <header class="header">
+      <div class="logo"><a href="index.html">WiSchool</a></div>
+      <nav class="navholder">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="#">Courses</a>
+        <a class="nav" href="#">Instructors</a>
+        <a class="nav" href="#">Schedule</a>
+        <a class="nav" href="#">Contact Us</a>
+      </nav>
       <div class="navbutton">
-        <div class="login"><a href="signin.html">Login</a></div>
+        <a class="login" href="signin.html">Login</a>
       </div>
-    </div>
-    <div class="hero">
-      <div class="hold">
-        <div class="pic1">
-          <a
-            href="https://www.youtube.com/results?search_query=technological+online+classes"
-            ><img src="./New folder/black14.webp" />Technology</a
-          >
-        </div>
-        <div class="pic2">
-          <a
-            href="https://www.youtube.com/results?search_query=business+administration+online+classes"
-          >
-            <img src="./New folder/black15.avif" />Administration</a
-          >
-        </div>
-        <div class="pic3">
-          <a
-            href="https://www.youtube.com/results?search_query=enterpreneur+classes+on+youtube"
-            ><img src="./New folder/black6.jpeg" />Entrepreneur</a
-          >
-        </div>
-      </div>
-      <div class="hole">
-        <div class="pic4">
-          <a
-            href="https://www.youtube.com/results?search_query=programming+online+classes"
-          >
-            <img src="./New folder/black12.webp" />Programming
-          </a>
-        </div>
-        <div class="pic5">
-          <a
-            href="https://www.youtube.com/results?search_query=health+care+online+classes"
-            ><img src="./New folder/black13.jpg" />Health Care</a
-          >
-        </div>
-      </div>
-    </div>
+    </header>
+
+    <section class="course-hero">
+      <h1>Explore Our Top Courses</h1>
+      <p>Boost your skills and knowledge from anywhere</p>
+    </section>
+
+    <section class="courses-grid">
+      <a class="course-card" href="https://www.youtube.com/results?search_query=technological+online+classes">
+        <img src="./New folder/black14.webp" alt="Technology" />
+        <h3>Technology</h3>
+      </a>
+      <a class="course-card" href="https://www.youtube.com/results?search_query=business+administration+online+classes">
+        <img src="./New folder/black15.avif" alt="Administration" />
+        <h3>Administration</h3>
+      </a>
+      <a class="course-card" href="https://www.youtube.com/results?search_query=entrepreneur+classes+on+youtube">
+        <img src="./New folder/black6.jpeg" alt="Entrepreneurship" />
+        <h3>Entrepreneurship</h3>
+      </a>
+      <a class="course-card" href="https://www.youtube.com/results?search_query=programming+online+classes">
+        <img src="./New folder/black12.webp" alt="Programming" />
+        <h3>Programming</h3>
+      </a>
+      <a class="course-card" href="https://www.youtube.com/results?search_query=health+care+online+classes">
+        <img src="./New folder/black13.jpg" alt="Health Care" />
+        <h3>Health Care</h3>
+      </a>
+    </section>
   </body>
 </html>
