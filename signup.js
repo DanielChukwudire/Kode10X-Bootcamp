@@ -11,7 +11,7 @@ function signUp() {
     password: password,
   };
   localStorage.setItem("user", JSON.stringify(userData));
-  alert("Sign up sucessfully");
+  alert("Sign up Sucessfully");
 
   setTimeout(() => {
     window.location.href = "signin.html";
