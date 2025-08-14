@@ -4,7 +4,7 @@ function signUp() {
   const password = document.getElementById("signupPass").value;
 
   if (name === "" || email === "" || password === "") {
-    alert("Please fill in all fields.");
+    alert("Please fill in all area.");
     return;
   }
 
@@ -12,9 +12,10 @@ function signUp() {
   const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
   // Check if email already exists
-  const userExists = existingUsers.some(user => user.username === email);
+  const userExists = existingUsers.some((user) => user.username === email);
   if (userExists) {
     alert("Email already registered. Please log in.");
+    window.location.href = "signin.html";
     return;
   }
 

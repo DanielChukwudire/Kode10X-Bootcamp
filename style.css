@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 2px;
   height: 75px;
   width: 100%;
 }
@@ -38,21 +38,21 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: black;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .navholder {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
 }
 
 .nav {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 1rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   padding: 5px 10px;
   border-radius: 4px;
 }
@@ -65,7 +65,8 @@ body {
 .nav a:hover {
   color: var(--primary-color);
   font-size: 1.2rem;
-  transform: translateY(-2px);
+  transition: 0.3s ease;
+  transform: translateY(-2px) ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,7 +81,20 @@ body {
   font-weight: 700;
   font-size: 1rem;
 }
+.navbutton .login a {
+  color: #09b451;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.3s;
+}
 
+.navbutton .login:hover a {
+  color: white;
+  background-color: #09b451;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+}
 /* Hero Section */
 .heroholder {
   background-color: var(--light-bg);
@@ -100,7 +114,7 @@ body {
 }
 
 .lefttext {
-  font-size: 2.5rem;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -136,7 +150,9 @@ body {
 }
 
 /* Section Titles */
-.tex, .tex1, .wat {
+.tex,
+.tex1,
+.wat {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
@@ -144,12 +160,17 @@ body {
   padding: 0 1rem;
 }
 
-.text, .text1, .wait {
+.text,
+.text1,
+.wait {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.Child, .grade, .reports, .stu {
+.Child,
+.grade,
+.reports,
+.stu {
   color: var(--primary-color);
 }
 
@@ -241,7 +262,9 @@ body {
   font-size: 0.9rem;
 }
 
-.ture1, .ture2, .ture3 {
+.ture1,
+.ture2,
+.ture3 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -249,7 +272,9 @@ body {
   margin: 0 auto 1rem auto;
 }
 
-.ture1 img, .ture2 img, .ture3 img {
+.ture1 img,
+.ture2 img,
+.ture3 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -271,11 +296,13 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
   .lefttext {
     font-size: 2rem;
   }
-  .text, .text1, .wait {
+  .text,
+  .text1,
+  .wait {
     font-size: 1.2rem;
   }
   .logo {
@@ -284,6 +311,9 @@ body {
   .nav {
     font-size: 0.9rem;
   }
+  .navbutton {
+    display: none;
+  }
   .Get {
     padding: 0.6rem 1.2rem;
   }
@@ -291,19 +321,22 @@ body {
 
 @media (max-width: 480px) {
   .header {
-    flex-direction: column;
-    height: auto;
-    padding: 1rem;
-    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
   }
 
   .navholder {
-    flex-direction: column;
+    display: flex;
     gap: 0.5rem;
+    align-items: center;
+    width: 30px;
   }
 
   .navbutton {
-    margin-top: 0.5rem;
+    display: none;
   }
 
   .lefttext {
@@ -312,6 +345,9 @@ body {
 
   .Get {
     margin-top: 1rem;
+  }
+  .login a {
+    display: none;
   }
 
   .footer {
